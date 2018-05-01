@@ -1,0 +1,36 @@
+/* Navbar */
+.uba-onepage-top-navbar
+{
+    height: 30px;
+    background-color: brown;
+}
+
+/* slider */
+.uba-onepage-slider-item
+{
+    height: 600px;
+    background-size: cover;
+}
+.uba-onepage-slider-item:first-child
+{
+    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/slider_bg1.jpg');
+    background-size: cover;
+}
+.uba-onepage-slider-item:nth-child(2)
+{
+    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/vintage-1872682_1920.jpg');
+    background-size: cover;
+}
+.uba-onepage-slider-item:nth-child(3)
+{
+    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/oldtimer-770413_1920.jpg');
+    background-size: cover;
+}
+.slider-text-uba-onepage
+{
+    padding-top: 200px;
+}
+.slider-text-p
+{
+    padding: 0px 50px;
+}

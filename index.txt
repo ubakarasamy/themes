@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- metas -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, strink-to-fit=no">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="asset/css/bootstrap4.min.css">s
+<link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+<h1>Something New</h1>
+
+
+<!-- scripts -->
+<link type="text/javascript" src="asset/js/jquery.min.js">
+<link type="text/javascript" src="asset/js/popper.min.js">
+<link type="text/javascript" src="asset/js/bootstrap4.min.js">
+</body>
+</html> 
