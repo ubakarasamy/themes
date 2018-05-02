@@ -2,28 +2,30 @@
 .uba-onepage-top-navbar
 {
     height: 30px;
-    background-color: brown;
+    background-color:#25394A;
+    color: #fff;
 }
 
 /* slider */
 .uba-onepage-slider-item
 {
+    color: #fff;
     height: 600px;
     background-size: cover;
 }
 .uba-onepage-slider-item:first-child
 {
-    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/slider_bg1.jpg');
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url('../img/slider_bg1.jpg');
     background-size: cover;
 }
 .uba-onepage-slider-item:nth-child(2)
 {
-    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/vintage-1872682_1920.jpg');
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url('../img/vintage-1872682_1920.jpg');
     background-size: cover;
 }
 .uba-onepage-slider-item:nth-child(3)
 {
-    background:linear-gradient(rgba(255,0,150,0.3),rgba(255,0,150,0.3)),url('../img/oldtimer-770413_1920.jpg');
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url('../img/oldtimer-770413_1920.jpg');
     background-size: cover;
 }
 .slider-text-uba-onepage
@@ -34,3 +36,137 @@
 {
     padding: 0px 50px;
 }
+
+/* Welcome uba. block */
+.uba-welcome-part
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.welcome-uba-onepage-3box
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.secnd{
+    padding-top: 70px;
+}
+.welcome-uba-onepage-3box i 
+{
+    font-size: 25px;
+    border: 1px solid#EA663A;
+    border-radius: 50%;
+    padding: 20px;
+    color: #EA663A;
+}
+.welcome-uba-onepage-3box p
+{
+    color: #6e6e6e;
+    font-size: 20px;
+}
+/* Services */
+.services-uba-onepage .service-uba-box
+{
+    border: 1px solid #6e6e6e;
+    border-right: 1px solid transparent;
+    padding: 50px 20px 50px 20px;
+}
+.services-uba-onepage .col-3
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.services-uba-onepage .uba-main-title
+{
+    padding-bottom: 30px;
+}
+.services-uba-onepage
+{
+    padding-bottom: 50px;
+}
+.service-uba-box i
+{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.service-uba-box h3:after {
+    content: ' ';
+    display: block;
+    border: 2px solid #70bf45;
+    width: 50px;
+    margin-top: 15px;
+}
+.service-uba-box p
+{
+    color: #6e6e6e;
+}
+
+/* Progress bar */
+.progress {
+    width: 0;
+    animation: progress 1.5s ease-in-out forwards;
+    
+  } 
+
+  .progress-bar .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+  
+  .uba-team-box {
+    position: relative;
+    width: 100%;
+}
+  .team-hover-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  /* Team */
+  .team-content {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .uba-team-box:hover .team-hover-image {
+    opacity: 0.3;
+  }
+  
+  .uba-team-box:hover .team-content {
+    opacity: 1;
+  }
+  .uba-team-onepage
+  {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+/* Progress Bar */
+  @keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+  @keyframes show  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+      
+      
