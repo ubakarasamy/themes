@@ -1,0 +1,88 @@
+/* COLORS */
+/* 
+light-pink #e84393
+
+dark-pink #e84393
+ */
+
+/* FONTS */
+
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; 
+font-family: 'Jua', sans-serif;
+*/
+
+
+
+body{
+    margin: 0;
+    padding: 30px;
+}
+.header
+{
+    height: 95vh;
+    background-image: 
+    linear-gradient(to right bottom, 
+    rgba(232, 67, 147, 0.24), 
+    rgba(232, 67, 147, 0.78)), 
+    url(../img/adventure-beautiful-blue-551852.jpg);
+    background-position: top;
+    background-size: cover;
+    
+}
+
+.logo-box
+{
+    position: relative;
+}
+.logo-box .logo
+{
+    font-size: 35px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Jua', sans-serif;
+}
+.center-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    
+}
+.center-text .center-text-primary
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.center-text .center-text-secondary
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+.btn-contact-home
+{
+    padding: 15px 30px;
+    color: #000;
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    font-family: 'Jua', sans-serif;
+}
